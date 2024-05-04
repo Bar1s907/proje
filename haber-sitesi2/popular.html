@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+  <title>Haber Sitesi</title>
+
+  <link href="./reset.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet" />
+  <link href="./style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <img src="./assets/images/logo.svg" alt="Site logo" />
+      </div>
+      <nav class="desktop-nav">
+        <a href="./index.html">Ana Sayfa</a>
+        <a href="./new.html">Yeni</a>
+        <a href="./popular.html">Popüler</a>
+        <a href="./trend.html">Trend</a>
+      </nav>
+      <img class="hamburger-menu-open" src="./assets/images/icon-menu.svg" />
+    </header>
+    <div class="main"> <br>
+      <p>Microsoft, Windows 10’daki can sıkan bir sorunu çözemediğini kabul etti. <br><br>
+        ''Microsoft, haftalar önce yayınlanan Windows 10 KB5034441 güncellemesindeki sorunları çözemediğini doğruladı.
+        Kullanıcılar, “0x80070643 - ERROR_INSTALL_FAILURE” sorununu kendileri çözecek.''
+      </p>
+      <br>
+      <img src="./assets/images/popular.jpg" alt=""><br>
+      <h3>
+        Microsoft, geçtiğimiz ocak ayında Windows 10 ve 11 için yayınladığı KB5034441 güncellemesinde saldırganların
+        WinRE (Windows Kurtarma Ortamı) kullanarak BitLocker şifrelemesini atlamasına izin verebilecek önemli bir
+        güvenlik açığını gidermişti. Ancak ilginç bir şekilde bu güncellemeyi yüklemeye çalışan Windows 10 kullanıcılar,
+        haftalardır “0x80070643 - ERROR_INSTALL_FAILURE” hatasıyla karşılaşıyor. Bu sorun bazında Microsoft, bir
+        güncelleme paylaşarak ilgili hatayı gidermeyeceğini sessizce doğruladı. <br><br>
+
+        Microsoft, Windows 10 hatasını düzeltmeyecek <br><br>
+
+        <img src="./assets/images/popular2.jpg" alt=""> <br>
+
+        İlgili Windows 10 KB5034441 güncellemesini yüklerken karşılaşılan hata mesajı esasında kurtarma bölümündeki
+        yetersiz alandan kaynaklanıyor. Bu güncelleştirmenin başarıyla yüklenmesi için kurtarma bölümünde 250 MB boş
+        alan gerekiyor, eğer boş alan yoksa güncelleme başarısız oluyor. Microsoft, gelecekteki bir Windows
+        güncellemesinde bu alanı otomatik olarak oluşturmayacağını belirtiyor. <br><br>
+
+        Öte yandan yazılım devi ilgili sorunu kullanıcıların manuel olarak çözmesini istiyor. Bu manuel çözüm komut
+        istemi aracılığıyla yapılacak. Microsoft, WinRE alanını genişletmek için burada bir rehber sunuyor. <br><br>
+
+        Öte yandan aynı güncelleme KB5034440 ile Windows 11’e de gelmişti. Windows 11 kullanıcıları da aynı “0x80070643
+        - ERROR_INSTALL_FAILURE” hatayla karşılaşıyor. Microsoft’un manuel çözümü Windows 11 kullanıcıları için de
+        uygulanabiliyor. Bununla birlikte firma, Windows 11’de sorunu bir güncellemeyle çözüp çözmeyeceği konusunda bir
+        şey söylemedi. <br><br>
+      </h3>
+      <button><a href="./popular.html">1</a></button>
+      <button><a href="./popular2.html">2</a></button>
+      <button><a href="./popular3.html">3</a></button>
+    </div>
+  </div>
+</body>

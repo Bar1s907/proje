@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+  <title>Haber Sitesi</title>
+
+  <link href="./reset.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet" />
+  <link href="./style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <img src="./assets/images/logo.svg" alt="Site logo" />
+      </div>
+      <nav class="desktop-nav">
+        <a href="./index.html">Ana Sayfa</a>
+        <a href="./new.html">Yeni</a>
+        <a href="./popular.html">Popüler</a>
+        <a href="./trend.html">Trend</a>
+      </nav>
+      <img class="hamburger-menu-open" src="./assets/images/icon-menu.svg" />
+    </header>
+    <main>  
+      <section id="featured-new">
+        <div class="featured-new-image">
+          <img src="./assets/images/liva.png" />
+        </div>
+        <div class="featured-new-body">
+          <div class="featured-new-description">
+            <p>
+              Fenerbahçe'nin Hırvat file bekçisi, sezonun kritik haftalarında performansını artırmayı başardı. Son
+              maçlarda önemli kurtarışlar yapan, Beşiktaş derbisinde de iyi oynayan Livakovic’in bu formu, son 4 hafta
+              öncesi İsmail Kartal’ı fazlasıyla memnun etti.
+            </p>
+            <button><a href="liva.html">Haberin Devamı...</a></button>
+          </div>
+        </div>
+      </section>
+      <section id="news-sidebar">
+        <h2>YENİ</h2>
+        <div class="new-item">
+          <h4><a href="hve.html">Yeni Hidrojen VS Elektrik</a></h4>
+          <p>Hidrojen yakıtlı arabalar elektrikli arabalara yetişebilecekmi?</p>
+        </div>
+        <div class="new-item">
+          <h4><a href="gyzeka.html">Gelişen Yapay Zeka</a></h4>
+          <p>
+            Bill Gates açıkladı: Yapay zekanın ele geçiremeyeceği 3 meslek
+          </p>
+        </div>
+        <div class="new-item">
+          <h4><a href="finans.html">Finans</a></h4>
+          <p>
+            Financial Times'ın haberine göre, teknolojideki kriz can yakmaya devam ederken girişim sermayesi
+            yatırımlarının dünya çapında düşüş yaşadığını belirtiyor.
+          </p>
+        </div>
+      </section>
+      <section id="news-bottom">
+        <div class="new-bottom-item">
+          <div class="new-image">
+            <a href=""></a>
+            <img src="./assets/images/6632a0118e519ffa68c95492.jpg" />
+          </div>
+          <div class="new-body">
+            <p class="new-body-number">01</p>
+            <h3>FENERBAHÇE BEKO</h3>
+            <p class="new-body-description">
+              <a href="kareografi.html">Fenerbahçe Taraftarından Muhteşem Kareografi.</a>
+            </p>
+          </div>
+        </div>
+        <div class="new-bottom-item">
+          <div class="new-image">
+            <img src="./assets/images/gunes.jpg" />
+          </div>
+          <div class="new-body">
+            <p class="new-body-number">02</p>
+            <h3>Güneş'te 2 patlama</h3>
+            <p class="new-body-description">
+              <a href="gunes.html">3 Ülkede Radyo Kesintisi</a>
+            </p>
+          </div>
+        </div>
+        <div class="new-bottom-item">
+          <div class="new-image">
+            <img src="./assets/images/gaz.jpg" />
+          </div>
+          <div class="new-body">
+            <p class="new-body-number">03</p>
+            <h3>Berlin’de kimya fabrikasında yangın</h3>
+            <p class="new-body-description">
+              <a href="gaz.html">Zehirli gaz uyarısı yapıldı</a>
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Hamburger Menu -->
+    <div class="hamburger-menu-wrapper">
+      <div class="overlay"></div>
+      <div class="mobile-nav-wrapper">
+        <img class="close-icon" src="./assets/images/icon-menu-close.svg" />
+        <nav class="mobile-nav">
+          <a href="#">Home</a>
+          <a href="#">New</a>
+          <a href="#">Popular</a>
+          <a href="#">Trending</a>
+          <a href="#">Categories</a>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+  <script src="./main.js"></script>
+</body>
+
+</html>
